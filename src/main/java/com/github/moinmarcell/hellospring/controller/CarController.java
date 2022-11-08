@@ -11,8 +11,8 @@ import java.util.List;
 public class CarController {
     CarService carService;
 
-    public CarController() {
-        carService = new CarService();
+    public CarController(CarService carService) {
+        this.carService = carService;
     }
 
     @PostMapping("/addcar")

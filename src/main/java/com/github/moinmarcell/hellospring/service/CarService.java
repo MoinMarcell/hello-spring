@@ -2,9 +2,11 @@ package com.github.moinmarcell.hellospring.service;
 
 import com.github.moinmarcell.hellospring.model.Car;
 import com.github.moinmarcell.hellospring.repo.CarRepo;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class CarService {
 
     CarRepo carRepo;

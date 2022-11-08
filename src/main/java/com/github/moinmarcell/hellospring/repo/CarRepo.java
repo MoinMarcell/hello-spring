@@ -1,10 +1,12 @@
 package com.github.moinmarcell.hellospring.repo;
 
 import com.github.moinmarcell.hellospring.model.Car;
+import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Repository
 public class CarRepo {
     List<Car> cars;
 
