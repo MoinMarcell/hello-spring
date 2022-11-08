@@ -13,8 +13,6 @@ public class Car {
         this.hasTuev = hasTuev;
     }
 
-    public Car() {}
-
     public String getBrand() {
         return brand;
     }
@@ -67,4 +65,6 @@ public class Car {
                 ", hasTuev=" + hasTuev +
                 '}';
     }
+
+
 }
